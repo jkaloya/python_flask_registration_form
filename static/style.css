@@ -1,0 +1,25 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+    width: 970px;
+    margin: 0px auto;
+}
+.dojoform{
+    display: block;
+}
+.box{
+    width: 600px;
+    length: 800px;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+li.error {
+    color: red;
+}
+
+ul.flashes {
+    list-style: none;
+}

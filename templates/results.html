@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+        <div class="wrapper">
+    		First_name: {{session.first_name}}<br>
+    		Last_name: {{session.last_name}}<br>
+    		Email: {{session.email}}<br>
+    		Password: {{session.password}}<br>
+    		Confirm_Password: {{session.confirm_password}}
+    		<p><button>Back</button></p>
+        </div>
+	</body>
+</html>
